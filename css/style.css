@@ -1,0 +1,77 @@
+
+
+*{
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.banner{
+    text-align: center;
+    padding: 2rem 0rem;
+    background: url(/images/banner.jpg);
+}
+
+h1{
+    color: #b8860b;
+    font-size: 5rem;
+}
+
+hr{
+    background-color: #ffffff;
+	border-top: 2px dashed #000000;
+}
+
+.btnGenerate {
+	width: 8rem;
+	--border-size: 2px;
+	padding: 1rem 1rem;
+	border: 0;
+    border-radius: 1rem;
+	background: transparent;
+	color: #b8860b;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	cursor: pointer;
+	font-weight: bold;
+	box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+	transition: background .8s ease;
+}	
+
+.btnGenerate:hover {
+    background: #b8860b;
+    color: #ffffff;
+    font-weight: bold;
+	box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+	transition: background .8s ease;
+}
+
+.cuadro{
+    text-align: center;
+}
+
+.containerDogs{
+    height: auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards{
+    border: 5px #b8860b solid;
+    width: 20rem;
+    height: 20rem;
+    box-shadow: #000 6px 6px 6px 6px;
+    margin: 2rem;
+}
+
+.cards img{
+    height: 20rem;
+    width: 20rem;
+}
+
+.cards video{
+    height: 18.5rem;
+    width: 20rem;
+}
